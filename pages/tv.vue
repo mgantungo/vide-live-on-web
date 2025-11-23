@@ -6,7 +6,7 @@
       <v-container fluid>
         <v-row align="center">
           <v-col cols="auto">
-            <h1 class="text-h5 font-weight-bold" style="color: rgb(34, 211, 238)">ViDE LIVE</h1>
+            <h1 class="text-h5 font-weight-bold" style="color: rgb(34, 211, 238)">StreamTV</h1>
           </v-col>
           <v-col>
             <v-btn
@@ -272,16 +272,17 @@ onMounted(() => {
   .content-row {
     display: flex;
     gap: 24px;
+    justify-content: center;
   }
   
   .left-column {
-    flex: 0 0 65vw;
-    max-width: 65vw;
+    flex: 0 0 1248px; /* 1920 * 0.65 = 1248px */
+    max-width: 1248px;
   }
   
   .right-column {
-    flex: 0 0 30vw;
-    max-width: 30vw;
+    flex: 0 0 576px; /* 1920 * 0.30 = 576px */
+    max-width: 576px;
   }
 }
 
