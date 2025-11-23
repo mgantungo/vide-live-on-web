@@ -6,7 +6,7 @@
       <v-container fluid>
         <v-row align="center">
           <v-col cols="auto">
-            <h1 class="text-h5 font-weight-bold" style="color: rgb(34, 211, 238)">StreamTV</h1>
+            <h1 class="text-h5 font-weight-bold" style="color: rgb(34, 211, 238)">ViDE Live</h1>
           </v-col>
           <v-col>
             <v-btn
